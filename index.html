@@ -16,7 +16,13 @@
     window.$docsify = {
       name: 'Зелёный город',
       relativePath: true,
-      loadSidebar: false
+      loadSidebar: true,
+      subMaxLevel: 0,
+      auto2top: true,
+      // одно боковое меню (из корня) на всех страницах
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
