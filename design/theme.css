@@ -1,0 +1,46 @@
+/* Тема «Зелёный город» поверх Bootstrap 5.3 */
+:root{
+  --bs-primary:#2e7d32; --bs-primary-rgb:46,125,50;
+  --bs-link-color:#2e7d32; --bs-link-color-rgb:46,125,50;
+  --bs-link-hover-color:#1b5e20; --bs-link-hover-color-rgb:27,94,32;
+  --bs-body-font-family:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+body{font-family:'Inter',system-ui,sans-serif;background:#fff;color:#263238;}
+.btn-primary{--bs-btn-bg:#2e7d32;--bs-btn-border-color:#2e7d32;--bs-btn-hover-bg:#27692b;--bs-btn-hover-border-color:#27692b;--bs-btn-active-bg:#1b5e20;--bs-btn-active-border-color:#1b5e20;--bs-btn-disabled-bg:#2e7d32;--bs-btn-disabled-border-color:#2e7d32;--bs-btn-focus-shadow-rgb:46,125,50;font-weight:600}
+.btn-outline-primary{--bs-btn-color:#2e7d32;--bs-btn-border-color:#2e7d32;--bs-btn-hover-bg:#2e7d32;--bs-btn-hover-border-color:#2e7d32;--bs-btn-active-bg:#2e7d32;--bs-btn-active-border-color:#2e7d32;--bs-btn-focus-shadow-rgb:46,125,50;font-weight:600}
+.btn-check:checked+.btn-outline-primary{background:#2e7d32;border-color:#2e7d32;color:#fff}
+.form-control:focus,.form-select:focus{border-color:#66bb6a;box-shadow:0 0 0 .25rem rgba(46,125,50,.2)}
+.form-check-input:checked{background-color:#2e7d32;border-color:#2e7d32}
+.form-check-input:focus{border-color:#66bb6a;box-shadow:0 0 0 .25rem rgba(46,125,50,.2)}
+.progress{background:#e8f5e9}
+.progress-bar{background-color:#2e7d32}
+.accordion{--bs-accordion-active-bg:#e8f5e9;--bs-accordion-active-color:#1b5e20;--bs-accordion-btn-focus-box-shadow:0 0 0 .2rem rgba(46,125,50,.2)}
+.card{border-color:#dfe7df;border-radius:16px}
+.list-group-item{border-color:#e6ece6}
+
+.phone{width:376px;height:656px;border:8px solid #263238;border-radius:38px;overflow:hidden;display:flex;flex-direction:column;background:#f4f7f4;font-size:14px}
+.status-bar{height:28px;background:#1b5e20;color:#fff;font-size:12px;display:flex;justify-content:space-between;align-items:center;padding:0 18px;flex:none}
+.status-bar i{margin-left:6px;font-size:11px}
+.appbar{height:56px;background:#2e7d32;color:#fff;display:flex;align-items:center;padding:0 16px;font-weight:600;font-size:18px;flex:none;box-shadow:0 2px 4px rgba(0,0,0,.2)}
+.appbar i{margin-right:16px;font-size:16px}
+.screen{flex:1;padding:16px;overflow:hidden}
+.bottom-nav{height:60px;background:#fff;border-top:1px solid #dfe7df;display:flex;flex:none}
+.bottom-nav div{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:11px;color:#78909c}
+.bottom-nav i{font-size:18px;margin-bottom:3px}
+.bottom-nav .active{color:#2e7d32;font-weight:600}
+.round-icon{width:64px;height:64px;border-radius:50%;background:#e8f5e9;color:#2e7d32;display:flex;align-items:center;justify-content:center;font-size:28px}
+.mono{font-family:'DejaVu Sans Mono',ui-monospace,monospace;letter-spacing:-.2px}
+.photo{height:110px;background:linear-gradient(135deg,#a5d6a7,#2e7d32);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.9);font-size:48px}
+.date-box{width:56px;height:56px;border-radius:12px;background:#e8f5e9;color:#1b5e20;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.05;flex:none}
+.date-box b{font-size:20px}.date-box span{font-size:11px;text-transform:uppercase}
+
+/* перекрываем градиенты и синие заголовки базовой темы */
+.btn,.btn-primary,.btn-outline-primary,.btn-success{background-image:none!important;text-shadow:none!important}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{color:#1b5e20}
+a{color:#2e7d32}
+.text-primary{color:#2e7d32!important}
+.badge.text-bg-warning{background-color:#ef6c00!important;color:#fff!important}
+.badge.text-bg-success{background-color:#2e7d32!important}
+.badge.text-bg-danger{background-color:#c62828!important}
+.text-success{color:#2e7d32!important}
+.border-success{border-color:#2e7d32!important}
